@@ -1421,3 +1421,35 @@ height: 100%;
     background-size: cover;
     height: 650px;
 }
+
+#map {
+  width: 100%;
+  height: 810px;
+}
+.gm-style-iw {
+  color: white;
+  background: black;
+  box-shadow: -14px 0px 0px black, -14px 9px 0px black, -14px -8px 0px black, 15px -8px 0px black, 15px 9px 0px black;
+}
+.gm-style-iw::before {
+  content: '';
+  width: calc(129%);
+  height: calc(117%);
+  background: black;
+}
+.gm-style-iw::after {
+  content: '';
+  width: 0;
+  height: 0;
+  position: absolute;
+  border: 22px solid transparent;
+  border-top-color: black;
+  z-index: 4;
+  top: auto;
+  bottom: -53px;
+  margin: auto;
+}
+.site-content{
+	padding-top: 0;
+	padding-bottom: 0;
+}
