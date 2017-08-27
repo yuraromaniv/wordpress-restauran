@@ -1328,7 +1328,7 @@ margin-bottom: 0;
     padding: 40px 0px 0 0px !important;
 }
 #panel-9-2-0-1> .panel-widget-style {
-    padding: 20px 0px 100px 0px !important;
+    padding: 20px 0px 20px 0px !important;
 }
 .restaurant-menu{
 	background-size: cover;
@@ -1358,17 +1358,7 @@ margin-bottom: 0;
   font-family: Tangak;
   color: white;
 }
-.erm_section_title{
 
-  margin-left: 20px;
-  text-align: center;
-  font-family: Tangak;
-  color: yellow;
-  font-size: 30px;
-  padding-bottom: 20px;
-  margin-top: 28px;
-  margin-left:0;
-}
 .erm_section_price{
 	width: 30%;
 	float: right;
@@ -1379,11 +1369,14 @@ margin-bottom: 0;
     color: white;
 
 }
+.erm_section_title{
+	    font-size: 21px;
+	    font-family: Tangak;
+    color: white;
+}
 .erm_section_desc{
 	width: 70%;
 height: 100%;
-}
-.erm_section p:last-child{
     font-family: ProximaNova-Light;
     font-size: 12px;
     padding-bottom: 11px;
@@ -1409,7 +1402,7 @@ height: 100%;
 }
 .press-author{
 	  color: white;
-
+padding-bottom: 50px;
   font-family: ProximaNova-Bold;
   padding-top: 35px;
   padding-left: 15px;
@@ -1452,4 +1445,104 @@ height: 100%;
 .site-content{
 	padding-top: 0;
 	padding-bottom: 0;
+}
+.clipart-left{
+  position: absolute;
+  margin-top: -20px;
+  left: 0px;
+ 
+}
+.clipart-right{
+  position: absolute;
+  right: 0px;
+    margin-top: -20px
+
+}
+.sb_instagram_header{
+	display: none;
+}
+#pgc-9-4-0 {
+    width: 100% !important;
+    /* width: calc(25% - ( 0.750000001875 * 30px ) ); */
+}
+.follow-text {
+    font-size: 17px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: ProximaNova-Light;
+}
+.panel-widget-style-for-9-4-0-0{
+	color: white;
+}
+#pg-9-4> .panel-row-style {
+
+    padding-top: 100px;
+   padding-bottom: 100px;
+}
+.img-follow-position{
+	padding-top: 50px;
+}
+.footer-contacts-bg{
+  width: 100%;
+  margin-top: 60px;
+
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(images/concats-bg.png);
+}
+.footer-conacts{
+  font-family: ProximaNova-Light;
+  margin-left: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.footer-conacts div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+.separator-size{
+  width: 100%
+}
+.contacts-icons{
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: center;
+}
+#pgc-w59a2e71d5d97f-0-3 h3{
+	display: none;
+}
+
+#panel-w59a2e71d5d97f-0-1-0 h3, #pgc-w59a2e71d5d97f-0-2 h3{
+    font-family: ProximaNova-Semibold;
+	font-size: 15px;
+    color: white;
+}
+.menu-item{
+	color: lightgrey;
+text-transform: capitalize;
+    font-family: ProximaNova-Light;
+  }
+
+#menu-main-menu-2{
+	list-style-type: none;
+}
+
+.panel-row-style-for-w59a2e0ec9807c-1{
+	  color: grey;
+line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+}
+.post-footer{
+	 padding-top: 15px;
+  padding-bottom: 10px;
+  height: 60px;
+     text-align: center;
+  position: absolute;
+    width: 100%;
+    margin: 0 auto;
+  color: grey;
 }
