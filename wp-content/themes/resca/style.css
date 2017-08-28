@@ -1284,6 +1284,7 @@ background-color: red;
   font-family: ProximaNova-Semibold;
   color: yellow;
   font-size: 26px;
+  text-transform: uppercase;
 }
 
 .about-text{
@@ -1325,7 +1326,7 @@ margin-bottom: 0;
     padding: 100px 0px 100px 0px !important;
 }
 #panel-9-2-0-0> .panel-widget-style {
-    padding: 40px 0px 0 0px !important;
+    padding: 0px 0px 0 0px !important;
 }
 #panel-9-2-0-1> .panel-widget-style {
     padding: 20px 0px 20px 0px !important;
@@ -1393,12 +1394,12 @@ height: 100%;
 }
 .press-text{
 	  color: white;
-
   font-size: 42.3px;
   font-family: ProximaNova-Regular;
   padding-top: 61px;
   padding-left: 16px;
   line-height: 1.32;
+  text-align: justify;
 }
 .press-author{
 	  color: white;
@@ -1407,6 +1408,7 @@ padding-bottom: 50px;
   padding-top: 35px;
   padding-left: 15px;
   font-size: 19.9px;
+  text-align: left;
 }
 
 #panel-9-2-0-2> .panel-widget-style {
@@ -1545,4 +1547,143 @@ line-height: 1.5;
     width: 100%;
     margin: 0 auto;
   color: grey;
+}
+.press-slogan{
+  color: white;
+  font-family: Tangak;
+  margin: 0;
+  padding-top: 40px;
+  font-size: 41px;
+}
+.press-content{
+  font-family: ProximaNova-Regular;
+  color: #b6b6b6;
+}
+.float-left{
+  float:left; /* Выравнивание по левому краю */
+  margin: 7px 30px 7px 0; /* Отступы вокруг картинки */
+}
+.press-content p{
+  padding-bottom: 10px;
+}
+.press-sign-item{
+  color: #ffffff;
+  font-family: ProximaNova-Light;
+  display: inline-block;
+
+}
+.separator-pad{
+  vertical-align: text-bottom;
+  margin-top: 5px;
+  padding: 0 15px 0 15px;
+}
+.press-sign{
+  padding-bottom: 50px;
+}
+
+.sign-size{
+  font-size: 19px;
+}
+.erm_menu-title{
+    height: 420px;
+}
+.thim-widget-restaurant-menu .restaurant-menu{
+    background-image: none;
+}
+.erm_menu_content.layout-default .erm_product .item-erm-section{
+    border: none;
+}
+.erm_product_title{
+    font-size: 21px;
+    font-family: Tangak;
+    color: white;
+}
+.erm_product_desc{
+    color: white;
+    font-size: 12px;
+      font-family: ProximaNova-Light;
+}
+.erm_menu_content.layout-default .erm_product .erm_product_title {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.erm_menu_content.layout-default .erm_product .erm_product_price .name{
+    display: none;
+}
+.erm_menu_content.layout-default .erm_product .erm_product_price .price {
+    color: white;
+}
+.erm_menu-title {
+    position: relative;
+}
+.erm_menu-title .erm_title {
+    position: absolute;
+    bottom: 9%;
+    left: 6%;
+    color: white;
+    font-family: Tangak;
+    font-size: 42px;
+    text-transform: capitalize;
+}
+.panel-widget-style-for-17-0-0-0 .widget-title{
+    font-family: Tangak;
+    font-size: 42px;
+    color: white;
+    padding-top: 46px;  
+}
+#pl-17 .so-panel {
+    margin-bottom: 0 !important;
+}
+.menu-h1-title{
+    font-family: Tangak;
+    color: yellow;
+    font-size: 42px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.erm_menu_content.layout-default {
+    margin-left: 15px;
+    width: 80%;
+    margin: 0 auto;
+}
+.header_v1 .width-navigation .menu-right {
+    border-left: none;
+}
+.top_site_main.top-site-no-image {
+    padding-bottom: 0px !important;
+    padding-top: 90px !important;
+}
+.inner-navigation .menu-main-menu .menu-item a:hover{
+    border: 1px solid white;
+}
+#panel-w59a023383d78f-0-0-0:hover{
+    background-color: #D32F2F;
+}
+.btn:hover, .btn:focus, .btn.focus {
+    color: white;
+    text-decoration: none;
+}
+.shapes{
+    width: 100%;
+}
+#panel-9-3-0-0> .panel-widget-style {
+    padding: 0px 0px 0px 0px !important
+}
+.btn-size-slogan:hover{
+    font-size: 16px;
+}
+footer#colophon .footer {
+    padding: 80px 0 0px 0;
+}
+.footer-sign h3{
+    font-size: 18px !important;
+    color: white;
+    font-weight: bold;
+}
+#menu-main-menu-2{
+    margin-left: 0px !important;
+}
+#menu-main-menu-2 li a span{
+    font-size: 14px;
 }

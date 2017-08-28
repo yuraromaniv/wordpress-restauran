@@ -22,7 +22,8 @@ foreach ( $instance['tab'] as $i => $tab ) {
 		$images_url = wp_get_attachment_image_src( $tab['icon_image'], 'full' );
 		$icon       = '<img src="' . $images_url['0'] . '">';
 	}
-	echo '<p>' .$tab['title'].$icon.' </p>';
+	echo '<p>' .$icon.' </p>';
+
 
 	if ( isset( $tab['id'] ) ) {
 		$post_id = $tab['id'];
@@ -35,6 +36,7 @@ foreach ( $instance['tab'] as $i => $tab ) {
 			$class_column = ' menu_content_two_column';
 		}
 		echo '<div class="restaurant-menu">';
+		 echo '<p class="menu-h1-title">' .$tab['title']. ' </p>';
 		echo '<ul class="erm_menu_content layout-default' . $class_column . '">';
 		foreach ( $menu_items as $item_count =>$item_id ) {
 			$visible = get_post_meta( $item_id, '_erm_visible', true );
