@@ -118,6 +118,70 @@ a {
 .bg-custom-sticky.affix {
     background: rgba(10, 10, 10, 0.85)
 }
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .about-text {
+        font-size: 40px !important;
+    }
+    #pg-9-4> .panel-row-style {
+ padding-top: 0 !important;
+    padding-bottom: 100px;
+}
+.follow-tag {
+    padding-bottom: 50px;
+}
+}
+@media screen and (min-width: 600px) and (max-width: 992px){
+    .about-text {
+        font-size: 35px !important;
+    }
+}
+@media screen and (max-width: 603px){
+    .about-text {
+        font-size: 30px !important;
+    }
+}
+@media screen and (max-width: 419px){
+    .about-text {
+        font-size: 30px !important;
+    }
+}
+@media screen and (max-width: 419px){
+    .about-text {
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .about-text {
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 767px){
+#pl-9 #pg-9-1 {
+    margin-left: 0 !important;
+ margin-right: 0 !important;
+}
+.width-logo img {
+    width: 50% !important;
+}
+.press-text{
+
+  font-size: 24px !important
+ 
+
+}
+#pg-9-4> .panel-row-style {
+ padding-top: 0 !important;
+    padding-bottom: 100px;
+}
+.follow-tag {
+    padding-bottom: 50px;
+}
+.footer-conacts {
+
+    margin-left: 0px; 
+
+}
+}
 
 @media (min-width: 768px) {
     .bg-custom-sticky.affix .navbar-nav > li.current-menu-item > a,
@@ -1296,7 +1360,6 @@ background-color: red;
 }
 #pg-9-1> .panel-row-style {
     height: 750px;
-
 }
 .menus-container{
 	width: 100% !important;
@@ -1757,3 +1820,20 @@ footer#colophon .footer {
     border: 8px solid #555;
     width: 600px;
 }
+.wonderplugin-gridgallery-loadmore-btn{
+    font-family: ProximaNova-Semibold !important;
+    padding: 0 22px 0 22px !important;
+    height: 45px !important;
+    line-height: 45px !important;
+    margin-top: 7px !important;
+    border-radius: 0px !important;
+    background: red !important;
+    border: none !important;
+    text-shadow: none !important;
+    color: white !important;
+    font-size: 16px !important;
+}
+.wonderplugin-gridgallery-loadmore-btn:hover{
+    background-color: #D32F2F !important;
+}
+
