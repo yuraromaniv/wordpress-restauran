@@ -37,7 +37,7 @@ $link_instagram   = $instance['link_instagram'];
 		}
 
 		if ( $link_pinterest != '' ) {
-			echo '<li><a class="pinterest hasTooltip" href="' . $link_pinterest . '" target="' . $instance['link_target'] . '" ><i class="fa fa-pinterest"></i></a></li>';
+			echo '<li><a class="pinterest hasTooltip" href="' . $link_pinterest . '" target="' . $instance['link_target'] . '" ><i class="fa fa-instagram"></i></a></li>';
 		}
 		if ( $link_digg != '' ) {
 			echo '<li><a class="digg hasTooltip" href="' . $link_digg . '" target="' . $instance['link_target'] . '" ><i class="fa fa-digg"></i></a></li>';

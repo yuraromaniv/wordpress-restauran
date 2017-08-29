@@ -1308,6 +1308,8 @@ background-color: red;
 .menu-block img {
 	padding:0;
 	width: 100%;
+    border-bottom: 5px solid;
+    border-image: url(images/red-line.png) 1;  
 }
 .menu-block p {
 margin-bottom: 0;
@@ -1319,7 +1321,8 @@ margin-bottom: 0;
   font-family: Tangak;
   color: white;
   font-size: 42px;
-  padding-top: 46px;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 
 #panel-9-2-0-0> .panel-widget-style {
@@ -1681,9 +1684,76 @@ footer#colophon .footer {
     color: white;
     font-weight: bold;
 }
-#menu-main-menu-2{
+#menu-footer-menu{
     margin-left: 0px !important;
-}
-#menu-main-menu-2 li a span{
+    list-style-position: inside;
+    -moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
     font-size: 14px;
+    list-style: none;
+}
+#menu-footer-menu li a span{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.social_link li a i{
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+}
+.social_link li a .fa-facebook{
+    background-color: #6788ce;
+}
+.social_link li a .fa-twitter{
+    background-color: #6788ce;
+}
+.social_link li a .fa-google-plus{
+    background-color: #e75c3c;
+}
+.social_link li a .fa-linkedin{
+    background-color: #399adc;
+}
+.social_link li a .fa-linkedin{
+    background-color: #399adc;
+}
+.social_link li a .fa-instagram{
+    background-color: #4ca1f0;
+}
+.thim-social ul.social_link li {
+    margin: 0 5px;
+}
+#panel-14-0-0-0 > h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: Tangak;
+}
+#wpcf7-f68-p14-o1 > form > div > div > label{
+    color: white;
+      font-family: ProximaNova-Semibold;
+      text-transform: uppercase;
+}
+.wpcf7-form .wpcf7-submit {
+    background: #dc0000;
+    border:none;
+    width: 130px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+          font-family: ProximaNova-Semibold;
+          letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.wpcf7-form .wpcf7-submit:hover {
+    background: #c1bfbf;
+    border-color: #2a2a2a;
+    color: black;
+}
+#spu-2513 {
+    background-color: #343434 !important;
+    color: white !important;
+    border: 8px solid #555;
+    width: 600px;
 }
