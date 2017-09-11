@@ -1332,13 +1332,20 @@ ul li {
     letter-spacing: 0.65px !important;
 }
 
-#panel-w59a023383d78f-0-0-0{
+.navbar-nav>li>a, .navbar-nav>li>span.disable_link{
+    padding: 10px 15px !important;
+}
+
+#panel-w59b683094d7bf-0-0-0{
 background-color: red;
     font-family: ProximaNova-Semibold;
     padding: 0 22px 0 22px;
     height: 45px;
     line-height: 45px;
     margin-top: 7px !important;
+}
+#panel-w59b683094d7bf-0-0-0:hover{
+    background-color: #D32F2F;
 }
 #pg-9-0, #pg-9-1, #pg-9-2, #pg-9-3, #pl-9 .so-panel {
     margin-bottom: 0px !important; 
@@ -1488,7 +1495,7 @@ padding-bottom: 50px;
 
 #map {
   width: 100%;
-  height: 810px;
+  height: 510px !important;
 }
 .gm-style-iw {
   color: white;
@@ -1726,9 +1733,6 @@ line-height: 1.5;
 .inner-navigation .menu-main-menu .menu-item a:hover{
     outline: 1px solid white;
 }
-#panel-w59a023383d78f-0-0-0:hover{
-    background-color: #D32F2F;
-}
 .btn:hover, .btn:focus, .btn.focus {
     color: white;
     text-decoration: none;
@@ -1796,6 +1800,20 @@ footer#colophon .footer {
     font-size: 40px;
     font-family: Tangak;
 }
+#panel-14-0-0-1 > h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: Tangak;
+}
+#panel-14-0-0-2 > h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: Tangak;
+}
 #wpcf7-f68-p14-o1 > form > div > div > label{
     color: white;
       font-family: ProximaNova-Semibold;
@@ -1846,7 +1864,9 @@ footer#colophon .footer {
 }
 .contact-info div{
     color:black;
-
+}
+.contactus-info div{
+    color:white;
 }
 #html5-watermark{
     display: none !important;
@@ -1861,4 +1881,8 @@ footer#colophon .footer {
     background: #517fa4;
     color: #fff;
     display: none !important;
+}
+#wpcf7-f2852-p2848-o1 > form > div.text-center.container > p:nth-child(4) > span > input{
+        width: 27%;
+    margin: 0 auto;
 }
