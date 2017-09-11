@@ -1406,11 +1406,14 @@ margin-bottom: 0;
 }
 
 
-.erm_section_desc{
-  margin-top: 3px;
-  font-family: ProximaNova-Light;
-  font-size: 21px;
-  padding-bottom: 11px;
+.erm_section_desc {
+    width: 70%;
+    font-weight: bold;
+    height: 100%;
+    font-family: ProximaNova-Light;
+    font-size: 13px;
+    padding-bottom: 11px;
+    color: white;
 }
 .menu-item-name{
   font-size: 21px;
@@ -1721,7 +1724,7 @@ line-height: 1.5;
     padding-top: 90px !important;
 }
 .inner-navigation .menu-main-menu .menu-item a:hover{
-    border: 1px solid white;
+    outline: 1px solid white;
 }
 #panel-w59a023383d78f-0-0-0:hover{
     background-color: #D32F2F;
@@ -1836,4 +1839,26 @@ footer#colophon .footer {
 .wonderplugin-gridgallery-loadmore-btn:hover{
     background-color: #D32F2F !important;
 }
+.contact-one{
+    font-weight: bold;
+    font-size: 28px;
+    color: #dc0000;
+}
+.contact-info div{
+    color:black;
 
+}
+#html5-watermark{
+    display: none !important;
+}
+.panel-widget-style-for-1668-0-0-0 #sb_instagram{
+    width: 100% !important;
+}
+.panel-widget-style-for-1668-0-0-0 #sbi_load{
+    display: block !important;
+}
+#sb_instagram .sbi_follow_btn a {
+    background: #517fa4;
+    color: #fff;
+    display: none !important;
+}
